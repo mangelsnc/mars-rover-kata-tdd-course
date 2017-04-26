@@ -1,0 +1,27 @@
+{
+    "name": "mangelsnc/mars-rover-kata",
+    "description": "Mars Rover Kata",
+    "keywords": ["kata","TDD"],
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^4.8 || ^5.0",
+        "mockery/mockery": "dev-master@dev",
+        "phpspec/phpspec": "2.0.*@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Miguel Ángel Sánchez Chordi",
+            "email": "mangel.snc@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "MarsRover": "src/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "minimum-stability": "dev"
+}
